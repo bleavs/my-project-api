@@ -13,6 +13,7 @@ class CreateUsers < ActiveRecord::Migration[5.1]
       t.string :postcode
       t.string :street
 
+      
       t.timestamps
     end
   end
