@@ -24,28 +24,28 @@ people.each do |person|
 end
 
   Group.create(
-    name: "Development",
-    description: "To Do: Develop"
+    name: "Pottery Class",
+    description: "Make Stuff"
   )
 
   Group.create(
-    name: "Finance",
-    description: "To Do: Don't Go Broke"
+    name: "Yoga Class",
+    description: "Learn your poses"
   )
 
   Group.create(
-    name: "Marketing",
-    description: "To Do: Find Niche in Market"
+    name: "Spin Class",
+    description: "Spin for a while"
   )
 
   Group.create(
-    name: "Operations",
-    description: "To Do: Work"
+    name: "Paint and Sip",
+    description: "Self Explanatory"
   )
 
   Group.create(
-    name: "PR",
-    description: "To Do: Relate Publicly "
+    name: "Pub Crawl",
+    description: "Crawl Pubs"
   )
 
   Usergroup.create(

@@ -1,6 +1,8 @@
 class UsersController < ApplicationController
   before_action :set_user, only: [:show, :update, :destroy]
 
+  # skip_before_action :authorized, only: [:index]
+
   # GET /users
   def index
     @users = User.all
@@ -14,6 +16,14 @@ class UsersController < ApplicationController
   end
 
   # POST /users
+  # signup
+
+  #def create
+    # @user = User.create(...)
+    # encode_token
+    # render json: token, status: 201
+  #end
+
   def create
 
     @user = User.new(user_params)
